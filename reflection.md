@@ -29,6 +29,7 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used AI as help right from the beginning. I needed ChatGPT's help with setting up git. I did not understand that I still needed to install line command tools, so when git wasn't connecting to terminal I screenshotted my terminal and put it in chatGPT. Then it was able to tell me I need to let it install line command tools. I also was able to ask AI about certain issues that I had with the game and where that could possibly correlate in terms of code. I wanted to get a sense of what type of bug I should be looking for in the code, 
 ---
 
 ## 3. Debugging and testing your fixes
@@ -38,6 +39,7 @@ Document at least 3 bugs you found. Add rows as needed.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+To decide whether a bug was really fixed, I had to just play the game again. AI was able to help me understand tests. It was able to show me what I was doing wrong, or at least how I could see what I was doing wrong, 
 ---
 
 ## 4. What did you learn about Streamlit and state?
@@ -52,3 +54,5 @@ Document at least 3 bugs you found. Add rows as needed.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+  This has made me really think about how AI is really useful and really not useful. Asking it good guiding questions and getting it to help me is a good way to use AI. However, asking it to generate code on all its own is probably not a good idea because there are so many random bugs it comes up with and it is hard to fix them or even find them at times. I will try to make sure when I use AI for technical things I am super smart about how I question and guide AI towards what I need. 
