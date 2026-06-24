@@ -8,15 +8,18 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+  1) The game was not correctly identifying my guesses are lower than 0 or higher than 100. With every new number I guessed, the game was still saying go higher or go lower without actually comparing it to the secret number.
+  2) The "submit guess" button did not work. The only way I had any insight as to whether my guess was high or low was through the "hint" button which was not even working right. 
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| 50    | Guess lower       | Nothing         | none
+| 10    | Guess lower       | Nothing         | none
+| 15    | Guess higher      | You've won      | none
 
 ---
 
